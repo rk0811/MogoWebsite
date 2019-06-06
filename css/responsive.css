@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@media (min-width: 992px) and (max-width: 1199){}
+	
+	
+	
+	
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	#services .content h3{
+		font-size: 20px;
+	}
+	
+
+	#brand .slick-next {
+    right: 20px;
+}
+	#brand .slick-prev {
+    left: 	20px;
+}
+	
+	section {
+		padding: 30px 0;
+	}
+	.main-heading {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.main-heading .sub-heading {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.para {
+		margin-bottom: 20px;
+	}
+	/* =============== MAIN SLIDER =============== */
+	#slider .main-heading {
+		font-size: 45px;
+	}
+	#slider .main-heading .sub-heading {
+		font-size: 22px;
+	}
+	#slider .carousel-inner {
+		height: 205px;
+	}
+	#slider .carousel-indicators li .number {
+		display: none;
+	}
+	/* =============== SECTION COUNTING =============== */
+	#counting .item {
+		padding: 20px 5px;
+	}
+	#counting .number {
+		font-size: 28px;
+	}
+	#counting .text {
+		font-size: 9px;
+	}
+	
+	/* =============== SECTION TESTIMONIAL =============== */
+	#carouselExampleIndicators1,
+	#carouselExampleIndicators2{
+		margin: 0 40px;
+	}
+	#carouselExampleIndicators1 .symbol {
+		font-size: 45px;
+		margin: 0 15px 0 5px;
+	}
+	#carouselExampleIndicators1 .quote,
+	#carouselExampleIndicators2 .quote {
+		font-size: 11px;
+	}
+	#carouselExampleIndicators1 .name,
+	#carouselExampleIndicators2 .name {
+		font-size: 13px;
+	}
+	#carouselExampleIndicators2 .avatar {
+		width: 100px;
+		margin-right: 15px;
+	}
+	/* =============== SECTION UNIQUE DESIGN =============== */
+	#unique-design .devices .mobile {
+		margin-left: 50px;
+		
+	}
+	/* =============== SECTION HAPPY CLIENT =============== */
+	#happyClient .avatar {
+	    width: 80px;
+	    margin-right: 15px;
+	}
+	
+	/* =============== FOOTER =============== */
+	footer {
+		padding-top: 30px;
+	}
+
+}
+
+
+
+@media (max-width: 767px) {
+	
+	/* =============== MAIN SLIDER =============== */
+	#slider .main-heading {
+		font-size: 45px;
+	}
+	#slider .main-heading .sub-heading {
+		font-size: 22px;
+	}
+	#slider .carousel-inner {
+		height: 235px;
+	}
+	
+	/* =============== SECTION UNIQUE DESIGN =============== */
+	#unique-design .devices {
+		width: 80%;
+	}
+	
+	#unique-design .devices .mobile{
+		margin-left: 40px;
+		width: 50%;
+	}
+	
+	/* =============== STORY =============== */
+	#story .col-md-4{
+		padding-bottom: 10px;
+	}
+	
+	
+	
+	/* =============== SECTION COUNTING =============== */
+	
+	#counting .row{
+		display: inline-block;
+		
+	}
+	
+	#counting .item {
+		border:none;
+	}
+
+	/* =============== SECTION TESTIMONIAL =============== */
+	#carouselExampleIndicators1 .symbol,
+	#carouselExampleIndicators2 .avatar {
+		display: none;
+	}
+	#carouselExampleIndicators1,
+	#carouselExampleIndicators2{
+		
+	}
+	/*#testimonial .carousel-control-next {
+     right: 0px; 
+}
+
+	#testimonial .carousel-control-prev {
+     left: 0px; 
+}*/
+	
+	/* =============== SECTION OUR WORK =============== */
+	#portfolio .portfolioItems li {
+		width: 100%;
+	}
+	
+	#nino-portfolio .column{
+    flex: 100%;
+    max-width: 100%;
+ 
+}
+	
+	
+}
+
+
+
+
